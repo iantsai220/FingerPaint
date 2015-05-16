@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DrawView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <DrawViewProtocol>
+
+
+@property (strong, nonatomic) IBOutlet DrawView *canvasView;
+
 
 
 @end

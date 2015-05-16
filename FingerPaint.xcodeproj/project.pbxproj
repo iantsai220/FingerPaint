@@ -14,6 +14,7 @@
 		963A67A81B069A0500A1E192 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963A67A71B069A0500A1E192 /* Images.xcassets */; };
 		963A67AB1B069A0500A1E192 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 963A67A91B069A0500A1E192 /* LaunchScreen.xib */; };
 		963A67B71B069A0600A1E192 /* FingerPaintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A67B61B069A0600A1E192 /* FingerPaintTests.m */; };
+		963A67C21B069D1900A1E192 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A67C11B069D1900A1E192 /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		963A67B01B069A0600A1E192 /* FingerPaintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerPaintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		963A67B51B069A0600A1E192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		963A67B61B069A0600A1E192 /* FingerPaintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerPaintTests.m; sourceTree = "<group>"; };
+		963A67C01B069D1900A1E192 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		963A67C11B069D1900A1E192 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				963A679F1B069A0500A1E192 /* AppDelegate.m */,
 				963A67A11B069A0500A1E192 /* ViewController.h */,
 				963A67A21B069A0500A1E192 /* ViewController.m */,
+				963A67C01B069D1900A1E192 /* DrawView.h */,
+				963A67C11B069D1900A1E192 /* DrawView.m */,
 				963A67A41B069A0500A1E192 /* Main.storyboard */,
 				963A67A71B069A0500A1E192 /* Images.xcassets */,
 				963A67A91B069A0500A1E192 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				963A67A31B069A0500A1E192 /* ViewController.m in Sources */,
 				963A67A01B069A0500A1E192 /* AppDelegate.m in Sources */,
+				963A67C21B069D1900A1E192 /* DrawView.m in Sources */,
 				963A679D1B069A0500A1E192 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
